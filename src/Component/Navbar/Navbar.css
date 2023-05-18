@@ -1,0 +1,40 @@
+.bar {
+    font-family: Helvetica, sans-serif;
+    padding: 0.1rem;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    max-width: 1280px !important;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-top: 12px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #003035;
+}
+
+#all {
+    margin-right: 1.6rem;
+    font-weight: bold;
+    font-size: 0.87rem;
+    list-style-type: none;
+}
+
+#all img {
+    margin-left: 0.8rem;
+}
+
+.all:hover {
+    color: #000;
+}
+
+.nav {
+    margin: 0 0.6rem;
+    list-style-type: none;
+    font-size: 0.88rem;
+}

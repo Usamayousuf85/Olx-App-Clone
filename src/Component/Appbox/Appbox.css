@@ -1,0 +1,55 @@
+.ab1{
+    display: flex;
+    justify-content: center;
+    background: rgba(0,47,52,.03);
+    /* border: 1px solid #000; */
+}
+.ab2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.4rem;
+}
+.ab3{
+    margin-left: 2.4rem;
+    margin-right: 1rem;
+}
+.h1{
+    margin: 2.8rem 0 1.6rem !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.h2{
+    font-size: 1.3rem !important;
+    max-width: 22rem !important;
+    font-weight: 400 !important;
+}
+.b12{
+    align-items: center !important;
+    display: flex;
+}
+.blank{
+    width: 0.2rem !important;
+    margin: 0 auto !important;
+    background-color: rgba(0,47,52,.2);
+    height: 10.5rem !important;
+}
+.app{
+    margin-left: 2.2rem
+}
+.n1{
+    margin: 5rem 0 0.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.appbtn{
+    align-items: center !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.appbtn img{
+    height: 4rem !important;
+    width: 7.8rem !important;
+}

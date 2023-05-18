@@ -1,0 +1,103 @@
+header {
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+}
+
+.first1 {
+    display: flex;
+    align-items: center;
+    padding-top: 0.4rem;
+    margin: 0px auto;
+    max-width: 1320px;
+}
+
+.box01 {
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px rgba(9, 34, 59, 0.4), 0 5px 5px -0.5px rgba(10, 31, 53, 0.65);
+    height: 430px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    width: 370px;
+}
+
+.box01 img {
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.form {
+    position: relative;
+    top: 30px;
+}
+
+.heading {
+    display: flex;
+    margin: auto auto 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+}
+
+.form h5 {
+    font-weight: 300;
+    color: #002f34;
+}
+
+.sp2 {
+    position: relative;
+    top: 20px;
+}
+
+.form input {
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    display: flex;
+    margin: 20px auto auto;
+    outline: none;
+    padding: 5px 10px;
+    width: 270px;
+}
+
+.form input:focus {
+    border-color: var(--bs-link-color);
+}
+
+#email {
+    position: relative;
+    top: 10px;
+}
+
+.login02 {
+    display: flex;
+    justify-content: center;
+    background-color: #002f34;
+    border: 1px solid #002f34;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    margin: 25px auto auto;
+    outline: none;
+    padding: 6.5px;
+    width: 270px;
+}
+
+.login02:active {
+    background-color: var(--bs-link-color);
+}
+
+.ida {
+    cursor: pointer;
+    text-decoration: none;
+    color: #002f34;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.ida:hover {
+    color: #002f34;
+}

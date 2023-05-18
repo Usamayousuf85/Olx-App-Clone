@@ -1,0 +1,103 @@
+header {
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.first2 {
+    display: flex;
+    align-items: center;
+    padding-top: 0.4rem;
+    margin: 0px auto;
+    max-width: 1320px;
+}
+
+.box02 {
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px rgba(9, 34, 59, 0.4), 0 5px 5px -0.5px rgba(10, 31, 53, 0.65);
+    height: 490px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    width: 350px;
+}
+
+.box02 img {
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+.form001 {
+    position: relative;
+    top: 25px;
+}
+
+.heading1 {
+    display: flex;
+    margin: auto auto 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+}
+
+.form001 h6 {
+    font-weight: 500;
+    color: #002f34;
+}
+
+.sp3 {
+    position: relative;
+    top: 16px;
+}
+
+.form001 input {
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    display: flex;
+    margin: 17px auto auto;
+    outline: none;
+    padding: 5px 10px;
+    width: 250px;
+}
+
+.form001 input:focus {
+    border-color: var(--bs-link-color);
+}
+
+#email {
+    position: relative;
+    top: 10px;
+}
+
+.login03 {
+    display: flex;
+    justify-content: center;
+    background-color: #002f34;
+    border: 1px solid #002f34;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px auto auto;
+    outline: none;
+    padding: 6.5px;
+    width: 250px;
+}
+
+.login03:active {
+    background-color: var(--bs-link-color);
+}
+
+/* .idam {
+    cursor: pointer;
+    text-decoration: none;
+    color: #002f34;
+    display: flex;
+    justify-content: center;
+}
+
+.idam:hover {
+    color: #002f34;
+} */
